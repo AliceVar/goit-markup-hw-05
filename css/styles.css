@@ -482,7 +482,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-left:0;
+
 
 }
 
@@ -527,7 +527,7 @@ input {
     font-family: inherit;
 }
 .subscribe-form {
-   
+    margin-left: auto;
 }
 
 .subscribe-box {
@@ -536,9 +536,12 @@ input {
 }
 
 .subscribe-label {
-    display:block;
     margin-bottom: 16px;
-    color: #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #ffffff;
 }
 
 input::placeholder {
@@ -570,7 +573,7 @@ input::placeholder {
 }
 
 .subscribe-email::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color:  #ffffff;
 }
 
 .plane-icon {
